@@ -12,4 +12,4 @@ Step4. Use ```predict.py``` to predict labels for testing images and generating 
 Note that such submission results in a 50% ranking in the leaderboard. 
 
 Step5. In order to improve our ranking, we use data augmentation for testing images. The intuition behind is similar to multi-crops,
-which makes use of voting ideas. ```predict_average_augmentation.py``` implements such idea.
+which makes use of voting ideas. ```predict_average_augmentation.py``` implements such idea and results in a 10% ranking in the leaderboard.
