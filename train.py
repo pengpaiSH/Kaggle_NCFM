@@ -11,7 +11,7 @@ img_width = 299
 img_height = 299
 nbr_train_samples = 3019
 nbr_validation_samples = 758
-nbr_epochs = 50
+nbr_epochs = 25
 batch_size = 32
 
 train_data_dir = '/Users/pengpai/Desktop/python/DeepLearning/Kaggle/NCFM/data/train_split'
@@ -60,6 +60,8 @@ train_generator = train_datagen.flow_from_directory(
         target_size = (img_width, img_height),
         batch_size = batch_size,
         shuffle = True,
+        # save_to_dir = '/Users/pengpai/Desktop/python/DeepLearning/Kaggle/NCFM/data/visualization',
+        # save_prefix = 'aug',
         classes = FishNames,
         class_mode = 'categorical')
 
@@ -68,6 +70,8 @@ validation_generator = val_datagen.flow_from_directory(
         target_size=(img_width, img_height),
         batch_size=batch_size,
         shuffle = True,
+        #save_to_dir = '/Users/pengpai/Desktop/python/DeepLearning/Kaggle/NCFM/data/visulization',
+        #save_prefix = 'aug',
         classes = FishNames,
         class_mode = 'categorical')
 
