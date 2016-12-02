@@ -7,7 +7,7 @@ np.random.seed(2016)
 root_train = '/Users/pengpai/Desktop/python/DeepLearning/Kaggle/NCFM/data/train_split'
 root_val = '/Users/pengpai/Desktop/python/DeepLearning/Kaggle/NCFM/data/val_split'
 
-root_total = '/data1/home/waynema/popeyepeng/NCFM/data/train'
+root_total = '/Users/pengpai/Desktop/python/DeepLearning/Kaggle/NCFM/data/train'
 
 FishNames = ['ALB', 'BET', 'DOL', 'LAG', 'NoF', 'OTHER', 'SHARK', 'YFT']
 
@@ -48,4 +48,3 @@ for fish in FishNames:
 
 print('Finish splitting train and val images!')
 print('# training samples: {}, # val samples: {}'.format(nbr_train_samples, nbr_val_samples))
-print(x, y)

@@ -1,4 +1,4 @@
-from inception_v3 import InceptionV3, preprocess_input
+from keras.applications.inception_v3 import InceptionV3
 import os
 from keras.layers import Flatten, Dense, AveragePooling2D
 from keras.models import Model
