@@ -16,3 +16,5 @@ which makes use of voting ideas. ```predict_average_augmentation.py``` implement
 
 Step 6. Note that there is still plenty of room for improvement. For example, we could split data into defferent training and valition
 data by cross-validation, e.g. k-fold. Then we train k models based on these splitted data. We average the predictions output by the k models as the final submission. This strategy will result a 5% ranking (Public Score: 1.02) in the leaderboard. We will leave the implementation as a practice for readers :)
+
+Step 7: if you wanna to improve ranking further, object detection is your next direction!
