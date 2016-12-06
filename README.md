@@ -1,8 +1,8 @@
 # Kaggle_NCFM
 Using Keras+TensorFlow to solve NCFM-Leadboard Top 5%
 
-Make sure that you have installed latest version of Keras since Inception_V3 is only provided 
-in the latest version!
+**Make sure that you have installed latest version of Keras since Inception_V3 is only provided 
+in the latest version!**
 
 Step1. Download dataset from https://www.kaggle.com/c/the-nature-conservancy-fisheries-monitoring/data
 
