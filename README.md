@@ -21,3 +21,5 @@ Step 6. Note that there is still plenty of room for improvement. For example, we
 data by cross-validation, e.g. k-fold. Then we train k models based on these splitted data. We average the predictions output by the k models as the final submission. This strategy will result a 5% ranking (Public Score: 1.02) in the leaderboard. We will leave the implementation as a practice for readers :)
 
 Step 7: if you wanna to improve ranking further, object detection is your next direction!
+
+Update and Note: In order to use ```flow_from_directory()```, you should create a folder named **test_stg1** and put the original test_stg1 inside it.
